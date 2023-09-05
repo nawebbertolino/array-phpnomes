@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<title></title>
+<body>
+
+<?php
+
+
+$notas = array("prova1" => 8.3, "prova2" => 5.9, "prova3" => 9.2); // array serve para agrupar elementos comuns. exe.: notas, cpf, marca de celular.
+echo $notas["prova1"] . '<br />'; 
+echo $notas["prova2"] . '<br />';
+echo $notas["prova3"] . '<br />'; // o ponto simples significa somar no php.
+$grupo = array('Rodrigo', 'José', 'Caliel', 'Ricardo', 'VitorE', 'VitorG', 'Wallace', 'Marcela', 'Atos','Bernardo', 'Eduardo', 'Andreia', 'Lucas', 'Poliana', 'Samuel', 'Ricardo', 'Raquel','Tânia', ' Natália');
+echo $grupo[19] . '<br>';
+echo $grupo[18] . '<br>';
+echo $grupo[17] . '<br>';
+echo $grupo[16] . '<br>';
+echo $grupo[15] . '<br>';
+echo $grupo[14] . '<br>';
+echo $grupo[13] . '<br>';
+echo $grupo[12] . '<br>';
+echo $grupo[10] . '<br>';
+echo $grupo[9] . '<br>';
+echo $grupo[8] . '<br>';
+echo $grupo[7] . '<br>';
+echo $grupo[6] . '<br>';
+echo $grupo[5] . '<br>';
+echo $grupo[4] . '<br>';
+echo $grupo[3] . '<br>';
+echo $grupo[2] . '<br>';
+echo $grupo[1] . '<br>';
+echo $grupo[0] . '<br>';
+
+?>
+ <style>
+ body{background: orange;}
+ </sytle>
+ 
+</body>
+</html>
